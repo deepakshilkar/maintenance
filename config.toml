@@ -119,3 +119,11 @@ identifier = "Main site"
 name = "Home"
 url = "https://vensel.org"
 weight = 30
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[permalinks]
+posts = '/:year/:month/:title/'
