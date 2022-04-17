@@ -1,0 +1,120 @@
+baseURL = "https://pubs.vensel.org"
+title = "Vensel Publications"
+paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+# googleAnalytics = ""
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Vensel Publications"
+description = "The site is currently undergoing maintenance"
+keywords = [ "Journals", "Portfolio", "Conferences" ]
+author = "Deepak Shilkar"
+images = [ "/img/ojs_brand.png" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  # [params.assets]
+  # favicon = "<link / abs url>"
+  # favicon16x16 = "<link / abs url>"
+  # favicon32x32 = "<link / abs url>"
+  # apple_touch_icon = "<link / abs url>"
+  # safari_pinned_tab = "<link / abs url>"
+
+  # [params.label]
+  # text = "Home"
+  # icon = "/apple-touch-icon.png"
+  # iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = "Site under maintenance"
+  subtitle = "The journal website is currently undergoing maintenance. It will be live back at 15:00"
+  imageUrl = "/img/logo.png"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "Logo"
+
+#     [[params.profileMode.buttons]]
+#     name = "Posts"
+#     url = "posts"
+
+#     [[params.profileMode.buttons]]
+#     name = "Tags"
+#     url = "tags"
+
+#   [params.homeInfoParams]
+#   Title = "Hi there 👋"
+#   Content = "Welcome to my blog"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/company/venselpublications"
+
+  [[params.socialIcons]]
+  name = "facebook"
+  url = "https://www.facebook.com/venselpublications"
+
+#   [[params.socialIcons]]
+#   name = "stackoverflow"
+#   url = "https://stackoverflow.com"
+
+#   [[params.socialIcons]]
+#   name = "github"
+#   url = "https://github.com/"
+
+# [params.analytics.google]
+# SiteVerificationTag = "XYZabc"
+
+# [params.analytics.bing]
+# SiteVerificationTag = "XYZabc"
+
+# [params.analytics.yandex]
+# SiteVerificationTag = "XYZabc"
+
+#   [params.cover]
+#   hidden = true
+#   hiddenInList = true
+#   hiddenInSingle = true
+
+#   [params.editPost]
+#   URL = "https://github.com/<path_to_repo>/content"
+#   Text = "Suggest Changes"
+#   appendFilePath = true
+
+#   [params.fuseOpts]
+#   isCaseSensitive = false
+#   shouldSort = true
+#   location = 0
+#   distance = 1_000
+#   threshold = 0.4
+#   minMatchCharLength = 0
+#   keys = [ "title", "permalink", "summary", "content" ]
+
+
+[[menu.main]]
+identifier = "Main site"
+name = "Home"
+url = "https://vensel.org"
+weight = 30

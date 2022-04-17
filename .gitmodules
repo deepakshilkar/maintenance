@@ -1,0 +1,6 @@
+[submodule "maintenance/themes/themes/introduction"]
+	path = maintenance/themes/themes/introduction
+	url = https://github.com/victoriadrake/hugo-theme-introduction.git
+[submodule "maintenance/themes/PaperMod"]
+	path = maintenance/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
