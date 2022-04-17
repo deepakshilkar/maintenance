@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://pubs.vensel.org/sitemap.xml
+Sitemap: https://deepakshilkar.github.io/maintenance/sitemap.xml

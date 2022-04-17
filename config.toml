@@ -1,4 +1,4 @@
-baseURL = "https://pubs.vensel.org"
+baseURL = "https://deepakshilkar.github.io/maintenance/"
 title = "Vensel Publications"
 paginate = 5
 theme = "PaperMod"
