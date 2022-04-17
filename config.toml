@@ -1,4 +1,4 @@
-baseURL = "https://deepakshilkar.github.io/maintenance/"
+baseURL = "/"
 title = "Vensel Publications"
 paginate = 5
 theme = "PaperMod"
@@ -52,10 +52,10 @@ tocopen = false
   enabled = true
   title = "Site under maintenance"
   subtitle = "The journal website is currently undergoing maintenance. It will be live back at 15:00"
-  # imageUrl = "/img/logo.png"
-  # imageWidth = 120
-  # imageHeight = 120
-  # imageTitle = "Logo"
+  imageUrl = "/img/logo.png"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "Logo"
 
 #     [[params.profileMode.buttons]]
 #     name = "Posts"
