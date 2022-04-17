@@ -15,8 +15,8 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "Vensel Publications"
-description = "The site is currently undergoing maintenance"
+title = "ThinkXChange Conferences"
+description = "The site has moved to a new address."
 keywords = [ "Journals", "Portfolio", "Conferences" ]
 author = "Deepak Shilkar"
 images = [ "/img/logo.png" ]
@@ -50,8 +50,8 @@ tocopen = false
 
   [params.profileMode]
   enabled = true
-  title = "Site under maintenance"
-  subtitle = "The journal website is currently undergoing maintenance. It will be live back at 15:00"
+  title = "thinkXchange Conferences"
+  subtitle = "The website has moved to a new address. Access the conference portal by visiting https://events.thinkxchange.org"
   imageUrl = "/img/logo.png"
   imageWidth = 120
   imageHeight = 120
